@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.profile-card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  transition: 0.3s ease;
+}
+
+.profile-card:hover {
+  box-shadow: 5px 5px 15px black;
+  transform: scale(1.05);
+}
+
+.profile-card img {
+  max-width: 100%;
+}
+
+.profile-info {
+  padding: 15px;
+}
+
+.profile-card h2 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: gray;
+}
